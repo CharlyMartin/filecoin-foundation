@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { Heading } from '@/components/Heading'
 import { TextLink } from '@/components/TextLink'
 
-import { EventData } from '@/types/eventTypes'
+import { type EventData } from '@/types/eventTypes'
 
 import { formatDate } from '@/utils/formatDate'
 

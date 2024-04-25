@@ -1,4 +1,4 @@
-import { EventData } from '@/types/eventTypes'
+import { type EventData } from '@/types/eventTypes'
 
 import { mapMarkdownToEventData } from '@/utils/mapMarkdownToEventData'
 import { transformMarkdownToCollectionData } from '@/utils/transformMarkdownToCollectionData'
@@ -14,7 +14,7 @@ export function getEventData(slug: string): EventData {
     EVENTS_DIRECTORY_PATH,
     EVENTS_COLLECTION_NAME,
     slug,
-    mapMarkdownToEventData
+    mapMarkdownToEventData,
   )
 }
 
@@ -22,6 +22,6 @@ export function getEventsData(): EventData[] {
   return transformMarkdownToCollectionData<EventData>(
     EVENTS_DIRECTORY_PATH,
     EVENTS_COLLECTION_NAME,
-    mapMarkdownToEventData
+    mapMarkdownToEventData,
   )
 }

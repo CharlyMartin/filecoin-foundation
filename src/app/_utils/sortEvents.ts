@@ -1,4 +1,4 @@
-import { EventData } from '@/types/eventTypes'
+import { type EventData } from '@/types/eventTypes'
 
 export function sortEvents(events: EventData[]) {
   return events.sort((a, b) => {

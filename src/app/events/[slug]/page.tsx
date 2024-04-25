@@ -1,11 +1,11 @@
 import Image from 'next/image'
 
-import { Event, WithContext } from 'schema-dts'
+import { type Event, WithContext } from 'schema-dts'
 
 import { Heading } from '@/components/Heading'
 import { StructuredDataScript } from '@/components/StructuredDataScript'
 
-import { EventData } from '@/types/eventTypes'
+import { type EventData } from '@/types/eventTypes'
 
 import { generateDynamicContentMetadata } from '@/utils/generateDynamicContentMetadata'
 import { getEventData } from '@/utils/getEventData'

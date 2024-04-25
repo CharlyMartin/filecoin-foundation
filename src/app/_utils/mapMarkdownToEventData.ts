@@ -1,4 +1,4 @@
-import { EventData } from '@/types/eventTypes'
+import { type EventData } from '@/types/eventTypes'
 
 export function mapMarkdownToEventData({
   data,

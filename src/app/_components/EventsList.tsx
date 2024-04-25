@@ -1,6 +1,6 @@
 import { EventListItem } from '@/components/EventListItem'
 
-import { EventData } from '@/types/eventTypes'
+import { type EventData } from '@/types/eventTypes'
 
 import { sortEvents } from '@/utils/sortEvents'
 
